@@ -1,0 +1,27 @@
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero_img{
+    display: inline;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    object-fit:cover;
+    animation: floatUp 0.3s ease;
+}
+
+/* @keyframes floatUp {
+    from{
+        transform: translateY(100px);
+    }
+
+    to{
+        transform: translateY(0px);
+    }
+} */
