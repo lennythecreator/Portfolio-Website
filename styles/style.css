@@ -3,6 +3,10 @@
     margin: 0;
     line-height: calc(1em + 0.5rem);
 }
+html {
+    visibility: visible;
+    opacity: 1;
+}
 
 :root{
     --MainColor:#F6F6F6;
