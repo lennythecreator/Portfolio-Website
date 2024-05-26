@@ -1,0 +1,37 @@
+.card{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 368px;
+    animation: scale 0.3s ease;
+}
+
+.card > a{
+    width: 40px;
+    animation: float 0.3s ease;
+    cursor: pointer;
+}
+.card_img{
+    width: 368px;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 6px;
+    
+}
+
+
+.projects{
+    display: flex;
+    gap: 32px;
+    margin-top: 10px;
+}
+
+@keyframes scale {
+    from{transform: scale(0); opacity: 0;}
+    to{transform: scale(1); opacity: 1;}
+}
+
+@keyframes float {
+    from{transform: translateY(-100); opacity: 0;}
+    to{transform: translateY(0); opacity: 1;}
+}

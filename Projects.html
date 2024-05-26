@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lenny's Portfolio</title>
+    <style>html{visibility: hidden;opacity: 0;}</style>
+    <!-- Load font styles as early as possible -->
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+            <li><a class="header__link" href="index.html">Home</a></li>
+            <li><a class="header__link" href="About.html">About</a></li>
+            <li><a class="header__link" href="Projects.html">Projects</a></li>
+            <li><a class="header__link" href="#">Contact</a></li>
+            <li><a class="header__resume btn" href="#">My Resume</a></li>
+        </ul>
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+        <section class="project container">
+            <h1 class="about_title">Projects</h1>
+            <p>You can find all my projects on my GitHub</p>
+            <a class="btn" href=""><i class=" icons fa-brands fa-github"></i>GitHub</a>
+
+            <div class="projects">
+                <div class="card">
+                    <img class="card_img" src="/Screenshot 2024-04-24 133227.png" alt="">
+                    <h2>Health Vault</h2>
+                    <p>A health app combining aspects of reddit and my fitness pal offering a comminty based fitness platform.</p>
+                    <a class="btn">Demo</a>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="/Screenshot 2024-04-24 133227.png" alt="">
+                    <h2>FastTrack</h2>
+                    <p>A health app combining aspects of reddit and my fitness pal offering a comminty based fitness platform.!</p>
+                    <a class="btn">Demo</a>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="/Screenshot 2024-04-24 133227.png" alt="">
+                    <h2>HealthChat</h2>
+                    <p>A health app combining aspects of reddit and my fitness pal offering a comminty based fitness platform.</p>
+                    <a class="btn">Demo</a>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="/Screenshot 2024-04-24 133227.png" alt="">
+                    <h2>TalentBridge</h2>
+                    <p>A health app combining aspects of reddit and my fitness pal offering a comminty based fitness platform.</p>
+                    <a class="project btn">Demo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Load your scripts after the main content to prevent render blocking -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
