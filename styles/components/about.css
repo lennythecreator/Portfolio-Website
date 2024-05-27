@@ -64,6 +64,7 @@
 dialog{
     border-radius: var(--rounded);
     border: 0;
+    width: 50vw;
 
 }
 
