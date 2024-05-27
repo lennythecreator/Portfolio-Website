@@ -6,7 +6,8 @@ export default defineConfig({
       input: {
         main: 'index.html',
         about: 'About.html',
-        projects: 'Projects.html'
+        projects: 'Projects.html',
+      
       }
     },
     outDir: 'dist',
