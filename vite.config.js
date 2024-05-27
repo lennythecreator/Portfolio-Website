@@ -1,13 +1,14 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: './',
-  publicDir: 'public',
   build: {
-    outDir: 'dist',
     rollupOptions: {
-      input: './index.html',
+      input: {
+        main: 'index.html',
+        about: 'About.html',
+        projects: 'Projects.html'
+      }
     },
+    outDir: 'dist',
   },
 });
